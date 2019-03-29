@@ -1,0 +1,51 @@
+
+pagina api www.themoviedb.org 
+
+apiKey : 12ac728600319dfe7acc8ada30f3e1f8
+
+API Read Access Token (v4 auth)
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMmFjNzI4NjAwMzE5ZGZlN2FjYzhhZGEzMGYzZTFmOCIsInN1YiI6IjVjOGJhNTM0YzNhMzY4MjE2ZTBlZjRiYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KsBeRCyv7oEKcy1h0BPPX487f2G_0pheqv5A5NDPo0w
+
+Example API Request
+
+https://api.themoviedb.org/3/movie/550?api_key=12ac728600319dfe7acc8ada30f3e1f8
+
+
+click api 
+clik discover examples 
+URL: 
+
+https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22
+ en postman hay que poner api_key en los params 
+
+ para pedir en español 
+
+ agregamos para las descripciones 
+language es 
+
+para las fotos 
+
+include_image_language es 
+
+/// corremos los ytabs dentro de pages 
+
+creamos un folder de pages 
+y luego movemos 
+y cambiamos el path  './pages/tabs/tabs.module#Ta
+
+en el routing 
+
+/// slides 
+
+una vez que tenemos armado el slide en el html y ts 
+
+colocamos : {{pelicula.backdrop_path}}
+
+esto nos va a dar el path . pero no la url 
+
+para ver la imagen hacemos un pipe 
+
+primero generamos el modulo que va a controlar todos mis pipes 
+
+
+ionic g  m pipes 
